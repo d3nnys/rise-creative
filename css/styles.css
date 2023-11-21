@@ -630,3 +630,117 @@ img {
 .choose-text-3 {
   max-width: 344px;
 }
+
+/* !SERVICE========== */
+
+.page-service {
+  background-color: var(--clr-body);
+  padding: 70px 0;
+}
+
+.service-text-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto 24px;
+  max-width: 158px;
+  padding: 10px 15px;
+  border-radius: 100px;
+  background: rgba(240, 231, 20, 0.2);
+}
+
+.service-first-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  color: var(--clr-dark-blue);
+}
+
+.service-title {
+  text-align: center;
+  font-family: 'open sans';
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1.27;
+
+  margin: 0 auto 16px;
+  max-width: 495px;
+  color: var(--clr-titles);
+}
+
+.service-second-text {
+  text-align: center;
+  font-family: 'open sans';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: -0.22px;
+
+  margin: 0 auto 80px;
+  max-width: 664px;
+  color: var(--clr-text);
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service-list-item {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 238px;
+  padding: 32px;
+  border-radius: 10px;
+  background: var(--clr-white);
+  width: calc((100% - (3 * 30px)) / 4);
+
+  transition: box-shadow var(--tns-cubic);
+}
+
+.service-list-item:focus,
+.service-list-item:hover {
+  box-shadow: 0px 30px 50px -10px rgba(152, 151, 151, 0.37);
+}
+
+.service-list-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 54px;
+  height: 54px;
+  background-color: var(--clr-titles);
+  border-radius: 50%;
+  margin-bottom: auto;
+}
+
+.service-list-item-box-icon {
+  fill: var(--clr-yellow);
+}
+
+.service-list-item-title {
+  font-family: 'open sans';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+
+  max-width: 181px;
+  color: var(--clr-titles);
+  margin-bottom: 12px;
+}
+
+.service-list-item-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.11;
+  letter-spacing: -0.011em;
+  color: var(--clr-text);
+}
